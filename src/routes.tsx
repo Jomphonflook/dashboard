@@ -23,36 +23,11 @@ export const routes: MenuItem[] = [
     label: 'REGISTER',
   },
   {
-  
     component: <Campaigns />,
     icon: <FlagOutlined />,
     key: '/campaigns',
     label: 'DASHBOARD',
   },
-  // {
-  //   component: <NewCampaign />,
-  //   icon: <PlusCircleOutlined />,
-  //   key: '/campaigns/new',
-  //   label: 'New Campaign',
-  // },
-  // {
-  //   component: <Creatives />,
-  //   icon: <FileImageOutlined />,
-  //   key: '/creatives',
-  //   label: 'Creatives',
-  // },
-  // {
-  //   component: <>Add Funds</>,
-  //   icon: <DollarOutlined />,
-  //   key: '/add-funds',
-  //   label: 'Add Funds',
-  // },
-  // {
-  //   component: <>Reports</>,
-  //   icon: <LineChartOutlined />,
-  //   key: '/reports',
-  //   label: 'Reports',
-  // },
 ];
 
 export const RouteContent: React.FC = () => {

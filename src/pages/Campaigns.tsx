@@ -1,13 +1,14 @@
 import { DatePicker, Table } from 'antd';
 import { useState } from 'react';
 
+//ข้อมูลที่เเสดงในตาราง
 const dataSource = [
   {
-    id: '123456',
+    id: '1234567891234',
     key: '1',
     name: 'Mike',
     code: 30,
-    claim: 'รายละเอียด (click)',
+    claim: 'เเสกนบัตรไม่ได้',
     status: 'กำลังซ่อม',
   },
   {
@@ -98,6 +99,14 @@ const dataSource = [
     claim: 'รายละเอียด (click)',
     status: 'กำลังซ่อม',
   },
+  {
+    id: 'xxxx',
+    key: '1',
+    name: 'Mike',
+    code: 30,
+    claim: 'เเสกนบัตรไม่ได้',
+    status: 'กำลังซ่อม',
+  },
 ];
 
 const columns = [
@@ -132,7 +141,7 @@ export const Campaigns = () => {
   const [selectedDate1, setSelectedDate1] = useState(null);
   return (
     <>
-      <div  className="rounded-lg bg-blue-400 p-4 text-white mb-[20px]">
+      <div className="mb-[20px] rounded-lg bg-blue-400 p-4 text-white">
         <div id="timepicker">
           <div id="start">
             <h1>START DATE</h1>

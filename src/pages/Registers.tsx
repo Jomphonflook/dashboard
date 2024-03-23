@@ -141,6 +141,9 @@ export const Registers = () => {
             <div> Your registration was successful! </div>
           </div>
         )}
+        <h1 id = "topic">
+          การเเจ้งซ่อม
+        </h1>
         {!valid && (
           <input
             className="form-field"
